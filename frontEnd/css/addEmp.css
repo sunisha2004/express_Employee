@@ -45,7 +45,7 @@ body {
 .editfield input[type="text"] {
     width: 93%;
     padding: 12px;
-    font-size: 20px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
@@ -72,14 +72,19 @@ body {
     background-color: #0056b3;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
     .main {
-        width: 90%;
+        width: 100%;
         padding: 20px;
     }
-
-    .editfield input[type="text"], .editfield button {
-        font-size: 14px;
+    .main img {
+        width: 150px;
+        height: 150px;
+    }
+    .editfield input[type="text"] {
+        width: 100%;
     }
 }
