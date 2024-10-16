@@ -8,7 +8,7 @@ async function getEmployees() {
         str+=`
         <div id="card">
                 <a href="#">
-                    <img src="../image/peoplelogo.png" alt="no image">
+                    <img src="${employe.pic}" alt="no image">
                     <div>
                         <div id="EmpID">${employe.empid}</div>
                         <div id="Name">${employe.name}</div>

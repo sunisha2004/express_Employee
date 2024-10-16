@@ -13,7 +13,7 @@ export async function addEmployee(req,res) {
     })  
     
 }
-
+    
 export async function getEmployees(req, res) {
     console.log("get employee");
 

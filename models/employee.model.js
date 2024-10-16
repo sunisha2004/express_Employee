@@ -1,12 +1,13 @@
 import mongoose from "mongoose";
 
 const employeeSchema = new mongoose.Schema({
-    empid: { type: Number },  // Ensure this matches the payload
+    empid: { type: Number },  
     name: { type: String },
     designation: { type: String },
     experience: { type: String },
     salary: { type: Number },
     email: { type: String },
+    pic: { type: String },
     phone: { type: Number }
 });
 

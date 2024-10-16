@@ -101,13 +101,13 @@ nav button:hover {
 #card {
     margin: auto;
     width: 300px;
-    background-color: #fff;
+    background-color: #fefdfd;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 450px;
+    height: 480px;
     line-height: 2rem;
 }
 
@@ -117,10 +117,11 @@ nav button:hover {
 }
 
 #card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 #card div {
@@ -143,6 +144,7 @@ nav button:hover {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    width: 100px;
 }
 
 #card a button:hover {
